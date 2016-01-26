@@ -41,26 +41,107 @@
         <div class="filter-slider" id="price_slider"></div>
       </fieldset>
 
-      <fieldset>
-        <div class="min-price">от</div>
-        <input type="text" name="min-price" value="0">
-        <div class="max-price">до</div>
-        <input type="text" name="max-price" value="15000">
-      </fieldset>
+    <fieldset>
+      <div class="min-price">от</div>
+      <input type="text" name="min-price" value="0">
+      <div class="max-price">до</div>
+      <input type="text" name="max-price" value="15000">
+    </fieldset>
 <!--Сетка-->
-      <fieldset>
-        <div class="grid">Сетка</div>
-          <input type="checkbox" id="ch1" checked>
-          <label for="ch1">Адаптивная</label>
-          <input type="checkbox" id="ch2">
-          <label for="ch2">Фиксированная</label>
-          <input type="checkbox" id="ch3">
-          <label for="ch3">Резиновая</label>
-      </fieldset>
+    <fieldset>
+      <div class="grid">Сетка:</div>
+        <input type="checkbox" id="ch1" checked>
+        <label for="ch1">Адаптивная</label>
+        <input type="checkbox" id="ch2">
+        <label for="ch2">Фиксированная</label>
+        <input type="checkbox" id="ch3">
+        <label for="ch3">Резиновая</label>
+    </fieldset>
 <!--Сетка-->
 
-<!--Особенности-->    
+<!--Особенности-->
+    <fieldset>
+      <div class="specs">особенности:</div>
+        <input type="checkbox" id="ch1" checked>
+        <label for="ch1">слайдер</label>
+        <input type="checkbox" id="ch2">
+        <label for="ch2">блок преимуществ</label>
+        <input type="checkbox" id="ch3" checked>
+        <label for="ch3">новости</label>
+        <input type="checkbox" id="ch4">
+        <label for="ch4">галерея</label>
+        <input type="checkbox" id="ch5">
+        <label for="ch5">корзина</label>
+      </fieldset>
+<!--Особенности-->
+
+      <fieldset>
+        <button type="submit" class="btn" name="show">показать</button>
+      </fieldset>
+    </form>
+  </aside>
+
+<!--блок сортировки по параметрам-->
+  <div class="sorting">
+    <form class="sorting-option" action="" method="">
+      <span h4>сортировать:</span>
+        <ul class="breadcrumbs">
+          <li><a class="price1" href="#">по цене</a></li>
+          <li><a class="type1"href="#">по типу</a></li>
+          <li><a class="func1" href="#">по функционалу</a></li>
+        </ul>
+      <fieldset>
+        <input class="move-down" type="button" name="move-down" value="">
+      </fieldset>
+      <fieldset>
+        <input class="move-up" type="button" name="move-up" value="">
+      </fieldset>
+    </form>
+  </div>
+<!--блок сортировки по параметрам-->
+
+<!--Каталог с превьюшками-->
+  <article class="card">
+    <a class="card-image" href="#">
+      <img src="http://placehold.it/150x100" alt="" />
+    </a>
+      <div class="slide-next">
+        <a href="#"></a>
+      </div>
+  </article>
+<!--Каталог с превьюшками-->
+
+<!--навигация по страницам, затупка со следующей страницей-->
+  <form class="" action="index.html" method="post">
+    <ul class="pages">
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+    </ul>
+    <input type="button" name="next" value="">следующая</input>
+  </form>
 
 
+<!--Тут будет карта-->
+<div class="map">
+</div>
+<!--Тут будет карта-->
+
+</div><!--закрыли контейнер-->
+
+<!--подвал с иконками соцсетей-->
+<footer class="main-footer">
+  <div class="container">
+    <section class="footer-social">
+      <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+      <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+      <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+    </section>
+    <section class="footer-friendship">
+      <p>Давайте дружить, это выгодно!</p>
+      <p>Скидка 10% для друзей из социальных сетей.</p>
+    </section>
+  </div>
+</footer>
+<!--подвал с иконками соцсетей-->
   </body>
 </html>
