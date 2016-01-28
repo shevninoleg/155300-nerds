@@ -5,117 +5,148 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-    <!--верхний бар с корзиной-->
-        <header class="main-header">
-          <div class="container">
-            <nav class="main-navigation">
-              <ul>
-                <li>
-                  <a href="#">студия</a>
-                </li>
-                <li>
-                  <a href="#">клиенты</a>
-                </li>
-                <li>
-                  <a href="#">магазин</a>
-                </li>
-                <li>
-                  <a href="#">контакты</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="user-block">
-              <a class="basket">Корзина</a>
-            </div>
-        </header>
+<!--верхний бар с корзиной-->
+  <header class="main-header">
+    <div class="container">
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#">студия</a>
+          </li>
+          <li>
+            <a href="#">клиенты</a>
+          </li>
+          <li>
+            <a href="#">магазин</a>
+          </li>
+          <li>
+            <a href="#">контакты</a>
+          </li>
+          </ul>
+      </nav>
+      <div class="user-block">
+        <a class="basket">
+        <img src="http://placehold.it/15x15" alt="basket">
+        Корзина</a>
+      </div>
+  </header>
     <!--верхний бар с корзиной-->
 
 <!--шапка со слайд-картинкой-->
-<div class="top">
-  <form class="" action="" method="">
-    <h2>Долго, дорого, скрупулезно.</h2>
-    <p>
-    Математически выверенный дизайн для
-    вашего сайта или мобильного приложения
-    </p>
-    <a class"button" href="#">
-      <input type="button" name="name" value="">узнать больше
-    </a>
-  <img src="http://placehold.it/150x100" alt="" />
+<div class="container">
+  <div class="slider">
+    <div class="slide1">
+      <p>
+        Долго, дорого, скрупулезно.
+      </p>
+      <p>
+      Математически выверенный дизайн для
+      вашего сайта или мобильного приложения
+      </p>
+      <a class"button" href="#">
+        узнать больше
+      </a>
+      <img src="http://placehold.it/150x100" alt="slide1">
+    </div>
+    <div class="slide2">
+      <img src="http://placehold.it/150x100" alt="slide2">
+    </div>
+    <div class="slide3">
+      <img src="http://placehold.it/150x100" alt="slide3">
+    </div>
+  </div>
 </div>
 <!--шапка со слайд-картинкой-->
 
 <!--Три картинки с кнопками-->
-<article class="card">
-  <img src="http://placehold.it/150x100" alt="" />
-  <p>веб-сайты</p>
+<div class="products">
+  <article class="card">
+    <img src="http://placehold.it/150x100" alt="Веб-сайты">
+    <h2>веб-сайты</h2>
     <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-      <a class"button" href="#">
-        <input type="button" name="name" value="">заказать
-      </a>
-</article>
+    <a class"button" href="#">
+    заказать
+    </a>
+  </article>
 
-<article class="card">
-  <img src="http://placehold.it/150x100" alt="" />
-  <p>приложения</p>
+  <article class="card">
+    <img src="http://placehold.it/150x100" alt="приложения">
+    <h2>приложения</h2>
     <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-      <a class"button" href="#">
-        <input type="button" name="name" value="">заказать
-      </a>
-</article>
+    <a class"button" href="#">
+      заказать
+    </a>
+  </article>
 
-<article class="card">
-  <img src="http://placehold.it/150x100" alt="" />
-  <p>презентации</p>
+  <article class="card">
+    <img src="http://placehold.it/150x100" alt="презентация">
+    <h2>презентации</h2>
     <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-      <a class"button" href="#">
-        <input type="button" name="name" value="">заказать
-      </a>
-</article>
-<!--Три картинки с кнопками-->
-<hr>
-
-<div class="about">
-  <p>
-    Мы-маленькая, но гордая дизайн-студия из Краснодара.
-  </p>
-  <p>
-    Исповедуем принципы минимализма и чистоты.
-    Ставим математический расчет выше креатива.
-    Работаем не покаладая рук, как роботы.
-  </p>
-  <img src="http://placehold.it/150x100" alt="logo" />
-  <p>
-    выполняем заказы на разработку:
-  </p>
-    <ul>
-      <li>веб-сайтов любой сложности</li>
-      <li>мобильных приложений для iOS и Android</li>
-      <li>Слайдшоу и видео для корпоративных презентаций</li>
-    </ul>
-  <p>
-    как мы работаем:
-  </p>
-  <ul>
-    <li>С самоотдачей 146%</li>
-    <li>Соблюдая сроки на 100%</li>
-    <li>По предоплате 50%</li>
-  </ul>
+    <a class"button" href="#">
+      заказать
+    </a>
+  </article>
 </div>
+<!--Три картинки с кнопками-->
 
-<hr>
+<!--описание студии-->
+<div class="about">
+  <div class="left">
+    <h2>
+      Мы-маленькая, но гордая дизайн-студия из Краснодара.
+    </h2>
+    <p>
+      Исповедуем принципы минимализма и чистоты.
+      Ставим математический расчет выше креатива.
+      Работаем не покаладая рук, как роботы.
+    </p>
+    <p>
+      выполняем заказы на разработку:
+    </p>
+      <ul>
+        <li>веб-сайтов любой сложности</li>
+        <li>мобильных приложений для iOS и Android</li>
+        <li>Слайдшоу и видео для корпоративных презентаций</li>
+      </ul>
+  </div>
+  <div class="right">
+    <img src="http://placehold.it/150x100" alt="logo">
+    <p>
+      как мы работаем:
+    </p>
+    <ul>
+      <li>С самоотдачей 146%</li>
+      <li>Соблюдая сроки на 100%</li>
+      <li>По предоплате 50%</li>
+    </ul>
+  </div>
+</div>
+<!--описание студии-->
 
 <div class="partners">
-  <a href="#"><img src=""http://placehold.it/150x100"" alt="Glukhanko" /></a>
-  <a href="#"><img src=""http://placehold.it/150x100"" alt="htmlacademy" /></a>
-  <a href="#"><img src=""http://placehold.it/150x100"" alt="Borodinsky" /></a>
+  <a href="#"><img src=""http://placehold.it/150x100"" alt="Glukhanko"></a>
+  <a href="#"><img src=""http://placehold.it/150x100"" alt="htmlacademy"></a>
+  <a href="#"><img src=""http://placehold.it/150x100"" alt="Borodinsky"></a>
 </div>
 
-<hr>
-<!--Тут будет карта-->
+<!--Карта-->
 <div class="map">
+  <img src="http://placehold.it/150x100" alt="Карта">
+  <img src="http://placehold.it/150x100" alt="Мы на карте">
+  <div class="contacts">
+    <p>
+      NERDS DESIGN STUDIO
+    </p>
+    <p>
+      191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+    </p>
+    <p>
+      тел. +7(812)275-75-75
+    </p>
+    <a class="button" href="#">напишите нам</a>
+  </div>
 </div>
-<!--Тут будет карта-->
+<!--Карта-->
 
 </div><!--закрыли контейнер-->
 
@@ -123,9 +154,15 @@
 <footer class="main-footer">
   <div class="container">
     <section class="footer-social">
-      <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-      <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-      <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      <a class="social-btn social-btn-vk" href="#">
+        <img src="http://placehold.it/15x15" alt="vk">Вконтакте
+      </a>
+      <a class="social-btn social-btn-fb" href="#">
+        <img src="http://placehold.it/15x15" alt="fb">Фейсбук
+      </a>
+      <a class="social-btn social-btn-inst" href="#">
+        <img src="http://placehold.it/15x15" alt="ins">Инстаграм
+      </a>
     </section>
     <section class="footer-friendship">
       <p>Давайте дружить, это выгодно!</p>
